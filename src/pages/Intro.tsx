@@ -41,7 +41,7 @@ const IntroWrapper: React.FC = () => {
 
   return (
     <div className="min-h-screen relative bg-black text-white overflow-hidden font-mono">
-      {/* Matrix Rain Background */}
+      
       <ParticleBackground />
 
       {showIntro && (
@@ -160,26 +160,7 @@ const IntroWrapper: React.FC = () => {
         </div>
       )}
 
-      {/* <div
-        className={`transition-all duration-1000 ${
-          showIntro ? "opacity-0 translate-y-8" : "opacity-100 translate-y-0"
-        }`}
-      >
-        {!showIntro && (
-          <div className="relative z-10">
-            <Navbar />
-            <Hero />
-            <About />
-            <Timeline />
-            <Prizes />
-            <Sponsors />
-            <FAQ />
-            <Registration />
-            <Footer />
-          </div>
-        )}
-      </div>*/}
-
+      
       {/* Custom Styles */}
       <style>{`
         @keyframes scanLine {
