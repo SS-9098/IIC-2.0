@@ -35,7 +35,7 @@ const JudgesMentorsContent: React.FC = () => {
         />
       ),
       name: "Kushal Vijay",
-      designation: "Senior Software Engineer, Tech Corp"
+      designation: "Software Engineer, Microsoft"
     },
     {
       icon: (
@@ -46,7 +46,7 @@ const JudgesMentorsContent: React.FC = () => {
         />
       ),
       name: "Swati Maurya",
-      designation: "Product Manager, Innovation Labs"
+      designation: "Software Engineer, Amazon"
     },
     {
       icon: (
@@ -57,7 +57,7 @@ const JudgesMentorsContent: React.FC = () => {
         />
       ),
       name: "Aditi Gupta",
-      designation: "Tech Lead, StartupXYZ"
+      designation: "CEO, TechTip24"
     },
     {
       icon: (
@@ -68,7 +68,7 @@ const JudgesMentorsContent: React.FC = () => {
         />
       ),
       name: "Bhagirath Giri",
-      designation: "CTO, Digital Solutions"
+      designation: "Director, WsCube Tech"
     },
     {
       icon: (
@@ -79,7 +79,7 @@ const JudgesMentorsContent: React.FC = () => {
         />
       ),
       name: "Sonam Chhikara",
-      designation: "AI Research Scientist"
+      designation: "Associate, PwC Acceleration Centers"
     },
   ];
 
