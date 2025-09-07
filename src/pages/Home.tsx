@@ -20,7 +20,6 @@ const Home: React.FC = () => {
       <Prizes />
       <Themes />
       <FAQ />
-      <Registration />
       <Footer />
     </div>
   );

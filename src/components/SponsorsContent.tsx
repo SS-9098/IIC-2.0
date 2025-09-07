@@ -248,42 +248,42 @@ const SponsorsContent: React.FC = () => {
         </div>*/}
 
         
-        <div className="mt-20 text-center animate-on-scroll opacity-0">
-          <div className="glass-card rounded-2xl p-8 max-w-3xl mx-auto">
-            <div className="flex items-center justify-center mb-6">
-              <Sparkles className="h-8 w-8 text-pink-400 mr-3" />
-              <h3 className="text-3xl font-bold gradient-text">Become a Sponsor</h3>
-            </div>
-            <p className="text-gray-300 max-w-2xl mx-auto mb-8 text-lg">
-              Join our community of forward-thinking companies supporting the next generation of tech innovators.
-              Various sponsorship packages are available to suit your budget and goals.
-            </p>
+        {/*<div className="mt-20 text-center animate-on-scroll opacity-0">*/}
+        {/*  <div className="glass-card rounded-2xl p-8 max-w-3xl mx-auto">*/}
+        {/*    <div className="flex items-center justify-center mb-6">*/}
+        {/*      <Sparkles className="h-8 w-8 text-pink-400 mr-3" />*/}
+        {/*      <h3 className="text-3xl font-bold gradient-text">Become a Sponsor</h3>*/}
+        {/*    </div>*/}
+        {/*    <p className="text-gray-300 max-w-2xl mx-auto mb-8 text-lg">*/}
+        {/*      Join our community of forward-thinking companies supporting the next generation of tech innovators.*/}
+        {/*      Various sponsorship packages are available to suit your budget and goals.*/}
+        {/*    </p>*/}
 
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
-              {[
-                { title: "Brand Visibility", desc: "Reach 1000+ tech enthusiasts" },
-                { title: "Talent Pipeline", desc: "Connect with top developers" },
-                { title: "Innovation Access", desc: "First look at cutting-edge projects" }
-              ].map((benefit, index) => (
-                <div key={index} className="glass-card p-4 rounded-lg">
-                  <h4 className="text-pink-400 font-bold mb-2">{benefit.title}</h4>
-                  <p className="text-gray-300 text-sm">{benefit.desc}</p>
-                </div>
-              ))}
-            </div>
+        {/*    <div className="grid md:grid-cols-3 gap-6 mb-8">*/}
+        {/*      {[*/}
+        {/*        { title: "Brand Visibility", desc: "Reach 1000+ tech enthusiasts" },*/}
+        {/*        { title: "Talent Pipeline", desc: "Connect with top developers" },*/}
+        {/*        { title: "Innovation Access", desc: "First look at cutting-edge projects" }*/}
+        {/*      ].map((benefit, index) => (*/}
+        {/*        <div key={index} className="glass-card p-4 rounded-lg">*/}
+        {/*          <h4 className="text-pink-400 font-bold mb-2">{benefit.title}</h4>*/}
+        {/*          <p className="text-gray-300 text-sm">{benefit.desc}</p>*/}
+        {/*        </div>*/}
+        {/*      ))}*/}
+        {/*    </div>*/}
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="modern-button neon-button px-8 py-3 rounded-lg font-medium transition-all duration-300"
-              onClick={()=>window.open('https://forms.gle/o3LkRUzYf6Ld1hWLA', '_blank')}>
-                Sponsor IIC 2.0
-              </button>
-              <button className="glass-card hover:glass-card text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 border border-pink-400/30"
-              onClick={()=>window.open(Pdf, '_blank')}>
-                Download Brochure
-              </button>
-            </div>
-          </div>
-        </div>
+        {/*    <div className="flex flex-col sm:flex-row gap-4 justify-center">*/}
+        {/*      <button className="modern-button neon-button px-8 py-3 rounded-lg font-medium transition-all duration-300"*/}
+        {/*      onClick={()=>window.open('https://forms.gle/o3LkRUzYf6Ld1hWLA', '_blank')}>*/}
+        {/*        Sponsor IIC 2.0*/}
+        {/*      </button>*/}
+        {/*      <button className="glass-card hover:glass-card text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 border border-pink-400/30"*/}
+        {/*      onClick={()=>window.open(Pdf, '_blank')}>*/}
+        {/*        Download Brochure*/}
+        {/*      </button>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
       </main>
     </div>
   );

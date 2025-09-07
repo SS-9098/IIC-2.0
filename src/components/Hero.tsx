@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
             <div className="inline-block px-6 py-2 mb-6 rounded-full glass-card">
               <p className="text-white font-medium flex items-center">
                 <Rocket size={18} className="mr-2 text-pink-400" />
-                <span className="gradient-text">Round 1 ends 31st August!</span>
+                <span className="gradient-text">Problem statements releasing soon!</span>
               </p>
             </div>
 
