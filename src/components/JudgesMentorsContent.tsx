@@ -35,6 +35,7 @@ const JudgesMentorsContent: React.FC = () => {
         />
       ),
       name: "Kushal Vijay",
+      designation: "Senior Software Engineer, Tech Corp"
     },
     {
       icon: (
@@ -45,6 +46,7 @@ const JudgesMentorsContent: React.FC = () => {
         />
       ),
       name: "Swati Maurya",
+      designation: "Product Manager, Innovation Labs"
     },
     {
       icon: (
@@ -55,6 +57,7 @@ const JudgesMentorsContent: React.FC = () => {
         />
       ),
       name: "Aditi Gupta",
+      designation: "Tech Lead, StartupXYZ"
     },
     {
       icon: (
@@ -65,6 +68,7 @@ const JudgesMentorsContent: React.FC = () => {
         />
       ),
       name: "Bhagirath Giri",
+      designation: "CTO, Digital Solutions"
     },
     {
       icon: (
@@ -75,6 +79,7 @@ const JudgesMentorsContent: React.FC = () => {
         />
       ),
       name: "Sonam Chhikara",
+      designation: "AI Research Scientist"
     },
   ];
 
@@ -106,6 +111,9 @@ const JudgesMentorsContent: React.FC = () => {
                 <h4 className="text-white font-bold text-lg mb-2 group-hover:text-pink-400 transition-colors duration-300">
                   {judge.name}
                 </h4>
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  {judge.designation}
+                </p>
               </div>
             ))}
           </div>
