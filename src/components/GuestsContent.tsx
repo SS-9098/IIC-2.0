@@ -29,42 +29,42 @@ const GuestsContent: React.FC = () => {
     { 
       icon: <img src="/guest1.png" alt="Guest 1" className="h-20 w-20 object-cover rounded-full" />, 
       name: "Jai G. Singla",
-      designation: "Designation to be added"
+      designation: "Scientist Engineer SF, SAC-ISRO"
     },
     { 
       icon: <img src="/guest2.png" alt="Guest 2" className="h-20 w-20 object-cover rounded-full" />, 
       name: "Arjun Kumar",
-      designation: "Designation to be added"
+      designation: "Associate Director & Scientist, DRDO"
     },
     { 
       icon: <img src="/guest3.png" alt="Guest 3" className="h-20 w-20 object-cover rounded-full" />, 
       name: "Jean Calleja Agius",
-      designation: "Designation to be added"
+      designation: "Head of ANatomy, University of Malta"
     },
     { 
       icon: <img src="/guest4.png" alt="Guest 4" className="h-20 w-20 object-cover rounded-full" />, 
       name: "Ing. Carl James Debono",
-      designation: "Designation to be added"
+      designation: "Dean, University of Malta"
     },
     { 
       icon: <img src="/guest5.png" alt="Guest 5" className="h-20 w-20 object-cover rounded-full" />, 
       name: "Neville Calleja",
-      designation: "Designation to be added"
+      designation: "Chair, European Health Information Initiative, WHO"
     },
     { 
       icon: <img src="/guest6.png" alt="Guest 6" className="h-20 w-20 object-cover rounded-full" />, 
       name: "Lalit Garg",
-      designation: "Designation to be added"
+      designation: "Professor, University of Malta"
     },
     { 
       icon: <img src="/guest7.png" alt="Guest 7" className="h-20 w-20 object-cover rounded-full" />, 
       name: "Varadraj P. Gurupur",
-      designation: "Designation to be added"
+      designation: "Professor, University of Central Florida"
     },
     { 
       icon: <img src="/guest8.png" alt="Guest 8" className="h-20 w-20 object-cover rounded-full" />, 
       name: "Vincent Lopez",
-      designation: "Designation to be added"
+      designation: "CEO, Parker Health Inc., USA"
     },
   ];
 
