@@ -46,9 +46,6 @@ const JudgesMentorsContent: React.FC = () => {
       ),
       name: "Swati Maurya",
     },
-  ];
-
-  const mentors = [
     {
       icon: (
         <img
@@ -81,6 +78,7 @@ const JudgesMentorsContent: React.FC = () => {
     },
   ];
 
+
   return (
     <div className="min-h-screen space-bg" ref={sectionRef}>
       <main className="container mx-auto px-4 py-20">
@@ -91,18 +89,18 @@ const JudgesMentorsContent: React.FC = () => {
               <Users className="h-8 w-8 text-pink-400" />
             </div>
             <h3 className="text-3xl font-bold gradient-text mb-2">
-              Meet the Judges
+              Meet the Judges and Mentors
             </h3>
             <div className="w-16 h-0.5 bg-gradient-to-r from-pink-400 to-cyan-400 mx-auto"></div>
           </div>
           {/* 2 Judges → 2 columns */}
-          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {judges.map((judge, i) => (
               <div
                 key={i}
                 className="glass-card rounded-xl p-6 group relative overflow-hidden text-center"
               >
-                <div className="flex items-center justify-center h-20 mb-4">
+                <div className="flex items-center justify-center h-50 mb-4">
                   {judge.icon}
                 </div>
                 <h4 className="text-white font-bold text-lg mb-2 group-hover:text-pink-400 transition-colors duration-300">
@@ -114,28 +112,28 @@ const JudgesMentorsContent: React.FC = () => {
         </div>
 
         {/* Mentors Section */}
-        <div className="animate-on-scroll opacity-0">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold gradient-text mb-2">Mentors</h3>
-            <div className="w-16 h-0.5 bg-gradient-to-r from-purple-400 to-indigo-500 mx-auto"></div>
-          </div>
-          {/* 3 Mentors → 3 columns */}
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            {mentors.map((mentor, i) => (
-              <div
-                key={i}
-                className="glass-card rounded-xl p-6 group relative overflow-hidden text-center"
-              >
-                <div className="flex items-center justify-center h-20 mb-4">
-                  {mentor.icon}
-                </div>
-                <h4 className="text-white font-bold text-lg mb-2 group-hover:text-purple-400 transition-colors duration-300">
-                  {mentor.name}
-                </h4>
-              </div>
-            ))}
-          </div>
-        </div>
+        {/*<div className="animate-on-scroll opacity-0">*/}
+        {/*  <div className="text-center mb-12">*/}
+        {/*    <h3 className="text-3xl font-bold gradient-text mb-2">Mentors</h3>*/}
+        {/*    <div className="w-16 h-0.5 bg-gradient-to-r from-purple-400 to-indigo-500 mx-auto"></div>*/}
+        {/*  </div>*/}
+        {/*  /!* 3 Mentors → 3 columns *!/*/}
+        {/*  <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">*/}
+        {/*    {mentors.map((mentor, i) => (*/}
+        {/*      <div*/}
+        {/*        key={i}*/}
+        {/*        className="glass-card rounded-xl p-6 group relative overflow-hidden text-center"*/}
+        {/*      >*/}
+        {/*        <div className="flex items-center justify-center h-20 mb-4">*/}
+        {/*          {mentor.icon}*/}
+        {/*        </div>*/}
+        {/*        <h4 className="text-white font-bold text-lg mb-2 group-hover:text-purple-400 transition-colors duration-300">*/}
+        {/*          {mentor.name}*/}
+        {/*        </h4>*/}
+        {/*      </div>*/}
+        {/*    ))}*/}
+        {/*  </div>*/}
+        {/*</div>*/}
       </main>
     </div>
   );
