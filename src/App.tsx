@@ -5,6 +5,7 @@ import Sponsors from './pages/Sponsors';
 import Gallery from './pages/Gallery';
 import JudgesMentors from './pages/JudgesMentors';
 import Guests from './pages/Guests';
+import ProblemStatements from './pages/ProblemStatements';
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/judges-mentors" element={<JudgesMentors />} />
         <Route path="/guests" element={<Guests />} />
+        <Route path="/problem-statements" element={<ProblemStatements />} />
       </Routes>
     </Router>
   );
