@@ -38,9 +38,9 @@ const Navbar: React.FC = () => {
 
   const navItems = [
     { name: 'About', path: '/home#about' },
+    { name: 'Problem Statements', path: '/problem-statements' },
     { name: 'Judges & Mentors', path: '/judges-mentors' }, 
     { name: 'Guests', path: '/guests' },
-    { name: 'Problem Statements', path: '/problem-statements' },
     { name: 'Sponsors', path: '/sponsors' },
     { name: 'Gallery', path: '/gallery' },
   ];
@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
               className="modern-button neon-button px-6 py-2 rounded-md font-medium transition-all duration-300 shadow-md"
             >
               <Zap size={16} className="inline mr-1" />
-              Register
+              Submit
             </button>
           </div>
 

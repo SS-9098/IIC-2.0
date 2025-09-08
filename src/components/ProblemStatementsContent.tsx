@@ -264,7 +264,7 @@ const ProblemStatementsContent: React.FC = () => {
                 return (
                   <div
                     key={globalIndex}
-                    className="glass-card p-6 rounded-lg group relative overflow-hidden transition-all duration-300 hover:shadow-lg"
+                    className="glass-card p-6 rounded-lg group relative overflow-hidden transition-all duration-300 hover:shadow-lg mb-4"
                   >
                     <div
                       className="cursor-pointer"
