@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Zap, Calendar, MapPin, Rocket } from 'lucide-react';
 import GlowingParticles from './GlowingParticles';
-import Pdf from '/Guidelines.pdf'
+import Pdf from '/problem_statements.pdf'
 
 const Hero: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
             <div className="inline-block px-6 py-2 mb-6 rounded-full glass-card">
               <p className="text-white font-medium flex items-center">
                 <Rocket size={18} className="mr-2 text-pink-400" />
-                <span className="gradient-text">Problem statements are now live!</span>
+                <span className="gradient-text">Submissions started!</span>
               </p>
             </div>
 
@@ -50,11 +50,11 @@ const Hero: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-8">
               <button className="modern-button neon-button py-4 px-8 rounded-lg text-center font-bold transition-all duration-300 shadow-md"
-              onClick={() => window.open('https://unstop.com/hackathons/international-innovation-challenge-20-manipal-university-mu-jaipur-1527559', '_blank')} >
-                Submissions Starting soon
+              onClick={() => window.open('https://docs.google.com/forms/d/1r6umjVOO-wcnGa-XwrCkjcvPk2f8rcAo1msmgnfnCz0/edit', '_blank')} >
+                Submit
               </button>
               <button className="glass-card hover:glass-card text-white font-medium py-4 px-8 rounded-lg transition-all duration-300 text-center border border-cyan-400/30 shadow-sm"
-              onClick={() => window.location.href = '/problem-statements'}>
+              onClick={() => window.open(Pdf, '_blank')}>
                 View Problems
               </button>
             </div>

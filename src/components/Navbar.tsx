@@ -117,7 +117,7 @@ const Navbar: React.FC = () => {
               </button>
             ))}
             <button
-              onClick={() => window.open('https://unstop.com/hackathons/international-innovation-challenge-20-manipal-university-mu-jaipur-1527559', '_blank')}
+              onClick={() => window.open('https://docs.google.com/forms/d/1r6umjVOO-wcnGa-XwrCkjcvPk2f8rcAo1msmgnfnCz0/edit', '_blank')}
               className="block w-full mt-2 modern-button px-4 py-3 rounded-md font-medium text-center"
             >
               <Zap size={16} className="inline mr-1" />
