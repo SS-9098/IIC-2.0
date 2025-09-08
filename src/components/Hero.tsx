@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-8">
               <button className="modern-button neon-button py-4 px-8 rounded-lg text-center font-bold transition-all duration-300 shadow-md"
               onClick={() => window.open('https://unstop.com/hackathons/international-innovation-challenge-20-manipal-university-mu-jaipur-1527559', '_blank')} >
-                Join the Revolution
+                Submissions Starting soon
               </button>
               <button className="glass-card hover:glass-card text-white font-medium py-4 px-8 rounded-lg transition-all duration-300 text-center border border-cyan-400/30 shadow-sm"
               onClick={() => window.location.href = '/problem-statements'}>

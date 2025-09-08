@@ -18,7 +18,6 @@ const Home: React.FC = () => {
       <About />
       {/*<Timeline />*/}
       <Prizes />
-      <Themes />
       <FAQ />
       <Footer />
     </div>
